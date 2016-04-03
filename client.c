@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
 		exit(4);
 	}
 	mkdir("./Download", S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
-	printf("[i] Download directory was created.\n");
+	printf("[i] Download directory was created.\n"); 
 	
 	return 0;
 }
