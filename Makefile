@@ -1,0 +1,11 @@
+CC = gcc -Wall
+SERVER = HW1_103062122_Ser.c
+CLIENT = HW1_103062122_Cli.c
+
+compile: $(SERVER) $(CLIENT)
+	$(CC) -o HW1_103062122_Ser $(SERVER)
+	$(CC) -o HW1_103062122_Cli $(CLIENT)
+
+clean: $(OBJS)
+	rm HW1_103062122_Ser HW1_103062122_Cli
+
